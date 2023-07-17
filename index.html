@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vordex Omer</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+
+<body>
+
+    
+
+    <header class="header">
+        <a href="#" class="logo">Omer</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                <h1>Omer Faruk Limon</h1>
+                <h3>And l'm a <span class="multiple-text"></span></h3>
+            <p>l'm 18 years old and interested in software.</p>
+            <div class="social-media">
+                <a href="https://www.linkedin.com/in/omer-faruk-limon-a61b2b214/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://github.com/itsvordex" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="https://codepen.io/itsvordex" target="_blank"><i class='bx bx-code'></i></a>
+                <a href="https://www.instagram.com/its_vordex/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <a download href="/images/Resume.html" class="download-btn">Download CV</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/vordexlop.png" alt="">
+        </div>
+    </section>
+
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/vordexlop.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>Hello, l'm Omer Faruk Limon, l'm 18 years old and l'm interested in software. l like to sit at the computer and code and develop things. l'm a university student and l'm studying computer programming.
+                I am confident about Frontend and I am developing myself more and more on the Backend side.I know 3 languages English, Turkish, Spanish.
+            </p>
+
+        </div>
+    </section>
+
+
+
+    <section class="services" id="services">
+        <h2 class="heading">Our <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+            <i class='bx bx-code'></i>
+            <h3>Frontend Developer</h3>
+            <P><b><mark>HTML, CSS, JS, NODE.JS, VUE.JS</mark></b></P>
+
+        </div>
+        </div>
+
+        <div class="services-container">
+            <div class="services-box">
+            <i class='bx bx-code'></i>
+            <h3>Backend Developer</h3>
+            <P><b><mark>PHP, PYTHON</mark></b></P>
+
+        </div>
+        </div>
+
+    </section>
+
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/Screenshot_9.png" alt="">
+                <div class="portfolio-layer">
+                    <h4><mark>Travel Estate</mark></h4>
+                    <p><mark>l designed a rental website for vacation.</mark></p>
+                    <a href="https://itsvordex.github.io/Travel-Estate-VORDEX/" target="_blank"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/Screenshot_12.png" alt="">
+                <div class="portfolio-layer">
+                    <h4><mark>English dictionary</mark></h4>
+                    <p><mark>l designed an English dictionary. You can find its meaning and pronunciation.</mark></p>
+                    <a href="https://lnkd.in/dP2bK-JR"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/bane.png" alt="">
+                <div class="portfolio-layer">
+                    <h4><mark>Movie Guide App</mark></h4>
+                    <p><mark>l coded Movie Guide App.</mark></p>
+                    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7043352962865213440/" target="_blank"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/stwa.png" alt="">
+                <div class="portfolio-layer">
+                    <h4><mark>Star Wars Special</mark></h4>
+                    <p><mark>l coded product retrieval.</mark></p>
+                    <a href="https://codepen.io/itsvordex/pen/gOjbMzw" target="_blank"><i class='bx bx-link'></i></a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" id="fullName" placeholder="Full Name" required>
+                <input type="email" id="fromName" placeholder="Email Address" required>
+                <textarea id="msg" placeholder="Message" ></textarea>
+                <button class="download-btn" onclick='sendMail()'>Send Message</button>
+            </div>
+    
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Vordex - All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+    <script src="script.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("hyt3pjggTvQkizhA5");
+   })();
+</script>
+
+</body>
+</html>
